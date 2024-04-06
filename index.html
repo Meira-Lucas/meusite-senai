@@ -8,27 +8,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header> <!-- cabeçalho -->
-        <nav><!-- menu de navegação -->
-           <!-- alt+shift+seta pra baixo no final do codigo -->
-           <!-- alt+shift+A = comentário -->
-            <ul>
-                <li> Home     </li> 
-                <li> Projetos </li>
-                <li> Sobre    </li>
-                <li> Contato  </li>
+    <header class="header"> <!-- cabeçalho -->
+        <nav class="header-nav"><!-- menu de navegação -->
+            <ul class="menu menu-principal">
+                <li class="menu-item"> Home     </li> 
+                <li class="menu-item"> Projetos </li>
+                <li class="menu-item"> Sobre    </li>
+                <li class="menu-item"> Contato  </li>
             </ul>
         </nav><!--FIM comando nav-->
 
-        <div>
+        <div class="header-brand">
             <!-- link dentro das aspas/texto para direcionar entre maior e menor -->
-            <a href="index.html" target="_blank"> <!-- target é para abrir o link em outra guia -->
-                <img src="img/iconsf.png" alt="" height="100" width="100"> <!-- alt é para linguagem de surdos -->            
+            <a href="#home" target="_blank"> <!-- target é para abrir o link em outra guia -->
+                <img src="img/iconsf.png" alt="" height="" width="" class="brand-logo"> <!-- alt é para linguagem de surdos -->            
             </a>
         </div>
 
-        <div>
-            <i> </i> <!-- icone modo dark e light -->
+        <div class="header-toggle">
+            <i id="toggleTheme" class="bi bi-sun"> </i> <!-- icone modo dark e light -->
         </div>
 
     </header> <!-- FIM cabeçalho -->
@@ -64,3 +62,6 @@
     <!-- Fim menu mobile -->
 </body>
 </html>
+
+<!-- alt+shift+seta pra baixo no final do codigo -->
+<!-- alt+shift+A = comentário -->
