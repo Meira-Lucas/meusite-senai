@@ -116,3 +116,27 @@ p {
     cursor: pointer;
     transition: ease-in-out;
 }
+.menu{ /* UL */
+    display: flex;
+    align-items: center; /* alinha os itens no meio */
+    background-color: var(--primary-bg-color);
+}
+.menu-item{
+    width: 100%;
+}
+.menu-link{  /* LI */
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.menu-link.active,
+.menu-link:hover {
+    color: var(--primary-color);
+}
+.menu-text{  /* TAG span */
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+.menu-principal{
+    gap: 1rem;
+}

@@ -6,18 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/iconsf.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header class="header"> <!-- cabeçalho -->
         <nav class="header-nav"><!-- menu de navegação -->
             <ul class="menu menu-principal">
-                <li class="menu-item"> Home     </li> 
-                <li class="menu-item"> Projetos </li>
-                <li class="menu-item"> Sobre    </li>
-                <li class="menu-item"> Contato  </li>
+                <li class="menu-item"> 
+                    <a href="#home" class="menu-link active">
+                        <span class="menu-text">Home</span>
+                    </a>
+                </li>  
+                <li class="menu-item"> 
+                    <a href="#projetos" class="menu-link">
+                        <span class="menu-text">Projetos</span>
+                    </a>
+                </li> 
+                <li class="menu-item"> 
+                    <a href="#sobre" class="menu-link">
+                        <span class="menu-text">Sobre</span>
+                    </a>
+                </li> 
+                <li class="menu-item"> 
+                    <a href="#contato" class="menu-link">
+                        <span class="menu-text">Contato</span>
+                    </a>
+                </li> 
             </ul>
         </nav><!--FIM comando nav-->
-
+           
+        <!-- logo -->
         <div class="header-brand">
             <!-- link dentro das aspas/texto para direcionar entre maior e menor -->
             <a href="#home" target="_blank"> <!-- target é para abrir o link em outra guia -->
@@ -31,30 +49,33 @@
 
     </header> <!-- FIM cabeçalho -->
    <!-- menu mobile -->
-    <nav>
-        <ul>
-            <li>
-                <a href="#home">
-                    <i></i>
-                    <span> Home </span>
+    <nav id="nav-mobile">
+        <ul class="menu menu-mobile">
+            <li class="menu-item">
+                <a href="#home" class="menu-link active">
+                    <i class="menu-icon bi bi-house-door"> </i>
+                    <span class="menu-text"> Home </span>
                 </a>
             </li>
-            <li>
-                <a href="#projetos">
-                    <i></i>
-                    <span> Projetos </span>
+       
+            <li class="menu-item">
+                <a href="#projetos" class="menu-link">
+                    <i class="menu-icon bi bi-window-stack"></i>
+                    <span class="menu-text"> Projetos </span>
                 </a>
             </li>
-            <li>
-                <a href="#sobre">
-                    <i></i>
-                    <span> Sobre </span>
+        
+            <li class="menu-item">
+                <a href="#sobre" class="menu-link">
+                    <i class="menu-icon bi bi-person"></i>
+                    <span class="menu-text"> sobre </span>
                 </a>
             </li>
-            <li>
-                <a href="#contato">
-                    <i></i>
-                    <span> Contato </span>
+         
+            <li class="menu-item">
+                <a href="#contato" class="menu-link">
+                    <i class="menu-icon bi bi-envelope"></i>
+                    <span class="menu-text"> Contato </span>
                 </a>
             </li>
         </ul>
@@ -65,3 +86,4 @@
 
 <!-- alt+shift+seta pra baixo no final do codigo -->
 <!-- alt+shift+A = comentário -->
+<!-- "class" ajuda no CSS -->
