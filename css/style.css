@@ -154,7 +154,7 @@ p {
 }
 .menu-mobile{
     width: 100vw;
-    position: fixed;
+    /* position: fixed; */ 
     bottom: 0;
     justify-content: space-between;
     border-top: 2px solid var(--primary-border-color);
@@ -255,3 +255,33 @@ p {
     height: 2.4rem;
 }
 /* fim da seçã tecnologia */
+
+/* Projetos */
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.projetos-conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.projeto-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.cartao{
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    object-position: center;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+}
