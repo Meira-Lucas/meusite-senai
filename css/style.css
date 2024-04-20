@@ -6,7 +6,7 @@
 
 --primary-color: #f0f0f0; /*cor dos textos */
 --primary-bg-color: #111217; /*cor do fundo por causa do "bg" */
---secondary-bg-color: #C7c8c9; /*cor do fundo por causa do "bg" */
+--secondary-bg-color: #28292E; /*cor do fundo por causa do "bg" */
 --primary-border-color: #28292E; /*cor da borda por causa do "border" */
 --secondary-border-color: #56575A; /*cor da borda por causa do "border" */
 
@@ -108,9 +108,9 @@ p {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     padding: 0.5rem 1rem;
     z-index: 2;
+    /* width: 100%; */
 }
 .header-toggle {
     display: flex;
@@ -219,3 +219,39 @@ p {
     width: 100%;
     aspect-ratio: 16/9;
 }
+/* estilo da section-seção tecnologia */
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 6.25rem 1rem 2rem;
+    margin-top: -5.5rem;
+    background: var(--secondary-bg-color);
+}
+.tecnologias h2{
+    font-size: 2rem;
+    text-transform: none;
+    letter-spacing: normal;
+    text-align: start;
+}
+.tecnologias-lista{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+}
+.tecnologias-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    border: 1px solid var(--secondary-border-color);
+    border-radius: 5rem;
+}
+.tecnologias-logo{
+    height: 2.4rem;
+}
+/* fim da seçã tecnologia */
