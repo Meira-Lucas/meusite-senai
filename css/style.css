@@ -353,14 +353,14 @@ p {
 .sobre-icons i{
     font-size: 1.25rem;
 }
-.sobre-content1 .col1,
+.sobre-content2 .col1,
 .sobre-content2 .col2{
     display: flex;
     flex-direction: column;
     text-align: justify;
     gap: 2rem;
 } 
-.sobre-content1 .col1 .row1,
+.sobre-content2 .col1 .row1,
 .sobre-content2 .col1 .row2{
     display: flex;
     flex-direction: column;
