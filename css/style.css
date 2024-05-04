@@ -206,6 +206,9 @@ p {
 .btn-primary{
     border: 1px solid var(--primary-color);
 }
+#Home, .projetos, .sobre, .contato{
+    padding: 2.5rem 1rem;
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -447,7 +450,7 @@ footer p{
         padding: 1rem 6rem;
         background: var(--primary-bg-color);
     }
-    #nav-mobile{
+    .nav-mobile{
         display: none;
     }
     .header-nav{
